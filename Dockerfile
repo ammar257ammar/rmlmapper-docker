@@ -18,7 +18,7 @@ RUN chmod 755 rmlmapper.jar
 
 RUN ls
 
-ENTRYPOINT ["java", "-jar", "/rmlmapper.jar"]
+ENTRYPOINT ["java", "-jar", "/mapper/rmlmapper.jar"]
 CMD ["-h"]
 
 
